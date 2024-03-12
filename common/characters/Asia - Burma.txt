@@ -1,0 +1,265 @@
+characters = {
+	BUR_Aung_San = {
+		name = BUR_Aung_San
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_Burma_Aung_San.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AUNG_SAN_DESC"
+			ideology = paternalism_social_nationalism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+
+	BUR_Ne_Win = {
+		name = BUR_Ne_Win
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_Burma_Ne_Win.dds"
+				small = "GFX_idea_BUR_minister_Ne_Win"
+			}
+		}
+		country_leader = {
+			ideology = despotism_military_junta_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = BUR_Ne_Win_hog
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	BUR_Thakin_Nu = {
+		name = BUR_Thakin_Nu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_Burma_Thakin_Nu.dds"
+				small = "GFX_idea_BUR_minister_Thakin_Nu"
+			}
+		}
+		country_leader = {
+			ideology = socialist_left_wing_nationalism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = BUR_Thakin_Nu_for
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	BUR_Thakin_Mya = {
+		name = BUR_Thakin_Mya
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BUR/.dds"
+				small = "GFX_idea_BUR_minister_Thakin_Mya"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BUR_Thakin_Mya_eco
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	BUR_Bo_Hmu_Aung = {
+		name = BUR_Bo_Hmu_Aung
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BUR/.dds"
+				small = "GFX_idea_BUR_minister_Hmu_Aung"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = BUR_Bo_Hmu_Aung_sec
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	BUR_Thakin_Soe = {
+		name = BUR_Thakin_Soe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_Burma_Thakin_Soe.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_national_communism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+
+	BUR_U_Kyaw_Nyein = {
+		name = BUR_U_Kyaw_Nyein
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BUR/.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+
+	BUR_U_Saw = {
+		name = BUR_U_Saw
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BUR/.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_corporatism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+	
+	## Breakaways
+	# Arakan
+	ARA_Khaing_Moe_Lunn = {
+		name = ARA_Khaing_Moe_Lunn
+		portraits = {
+			civilian = { large = "gfx/leaders/ARA/Portrait_Arakan_Khaing_Moe_Lunn.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_KHAING_MOE_LUNN_DESC"
+			expire = "1990.1.1"
+			ideology = liberalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	# Burmese Communists
+	CBR_Thakin_Soe = {
+		name = CBR_Thakin_Soe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_Burma_Thakin_Soe.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_national_communism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+
+	# Chin
+	CHN_Taik_Chun = {
+		name = CHN_Taik_Chun
+		portraits = {
+			civilian = { large = "gfx/leaders/CHN/Portrait_Chin_Taik_Chun.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_TAIK_CHUN_DESC"
+			expire = "1990.1.1"
+			ideology = despotism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	# Kachin
+	KAC_Lahtaw_Zau_Seng = {
+		name = KAC_Lahtaw_Zau_Seng
+		portraits = {
+			civilian = { large = "gfx/leaders/KAC/Portrait_Kachin_Lahtaw_Zau_Seng.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LAHTAW_ZAU_SENG_DESC"
+			expire = "1990.1.1"
+			ideology = communist_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	# Karen
+	KAR_Saw_Ba_U_Gyi = {
+		name = KAR_Saw_Ba_U_Gyi
+		portraits = {
+			civilian = { large = "gfx/leaders/KAR/Portrait_Karen_Saw_Ba_U_Gyi.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_SAW_BA_U_GYI_DESC"
+			expire = "1990.1.1"
+			ideology = progressivism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	# Mon
+	RAM_Shwe_Kyin = {
+		name = RAM_Shwe_Kyin
+		portraits = {
+			civilian = { large = "gfx/leaders/RAM/Portrait_Mon_Shwe_Kyin.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_SHWE_KYIN_DESC"
+			expire = "1990.1.1"
+			ideology = liberalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	# Shan
+	SHA_Sao_Nang_Hearn_Kham = {
+		name = SHA_Sao_Nang_Hearn_Kham
+		portraits = {
+			civilian = { large = "gfx/leaders/SHA/Portrait_Shan_Sao_Nang_Hearn_Kham.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_SAO_NANG_HEARN_KHAM_DESC"
+			expire = "1990.1.1"
+			ideology = paternalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+}

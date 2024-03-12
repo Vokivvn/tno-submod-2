@@ -1,0 +1,252 @@
+spriteTypes = {
+	## Traits ##
+    spriteType = {
+        name = "GFX_trait_revolution_veteran"
+        texturefile = gfx/interface/traits/trait_revolution_veteran.dds
+    }
+
+	## Decision GFX ##
+	SpriteType = {
+		name = "GFX_decision_category_MEX_dedazo"
+		texturefile = "gfx/interface/decisions/decision_icons/MEX/decision_category_MEX_dedazo.dds"
+	}
+
+	## Ideas ##
+	spriteType = {
+		name = "GFX_idea_MEX_the_zaibatsus"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_the_zaibatsus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_economic_battlefield_ofn"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_economic_battlefield_ofn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_economic_battlefield_sphere"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_economic_battlefield_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_economic_battlefield_shared"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_economic_battlefield_shared.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_economic_battlefield_mexico"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_economic_battlefield_mexico.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_perfect_dictatorship"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_perfect_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_good_enough_dictatorship"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_good_enough_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_imperfect_dictatorship"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_imperfect_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_broken_dictatorship"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_broken_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_whispers_from_shadows"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_whispers_from_shadows.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MEX_the_imperfect_dictatorship"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_the_imperfect_dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_the_leviathan_4"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_the_leviathan_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_the_leviathan_3"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_the_leviathan_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_the_leviathan_2"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_the_leviathan_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_the_leviathan_1"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_the_leviathan_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_rural_depression"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_rural_depression.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_mexican_miracle"
+		texturefile = "gfx/interface/ideas/national_spirits/LATAM/MEX/idea_MEX_mexican_miracle.dds"
+	}	
+
+	## Ministers ##
+	spriteType = {
+		name = "GFX_idea_MEX_Gustavo_Ordaz"
+		texturefile = "gfx/interface/ideas/ministers/MEX/MEX_minister_Gustavo_Ordaz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_Mandril"
+		texturefile = "gfx/interface/ideas/ministers/MEX/MEX_minister_Mandril.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_Raul_Lozano"
+		texturefile = "gfx/interface/ideas/ministers/MEX/MEX_minister_Raul_Lozano.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_Manuel_Barraud"
+		texturefile = "gfx/interface/ideas/ministers/MEX/MEX_minister_Manuel_Tello_Barraud.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_Jose_Olachea"
+		texturefile = "gfx/interface/ideas/ministers/MEX/MEX_minister_Agustin_Olachea_Aviles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_Luis_Echeverria"
+		texturefile = "gfx/interface/ideas/ministers/MEX/MEX_Luis_Echeverria.dds"
+	}
+
+	## Focus Icons ##
+	SpriteType = {
+		name = "GFX_focus_MEX_olympic_dream"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_olympic_dream.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_averting_the_crisis"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_averting_the_crisis.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_big_iron_on_his_hip"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_big_iron_on_his_hip.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_the_triumphant_return"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_the_triumphant_return.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_across_the_pacific"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_across_the_pacific.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_across_the_rio_grande"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_across_the_rio_grande.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_contact_johnson"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_contact_johnson.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_japanese_movies"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_japanese_movies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_putting_mexico_on_the_map"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_putting_mexico_on_the_map.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_a_friendly_visit"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_a_friendly_visit.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_sugoi_my_asset_is_squeezed_like_how_i_want_japan_and_mexico_to_be_squeezed_together_to_improve_t"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_sugoi_my_asset_is_squeezed_like_how_i_want_japan_and_mexico_to_be_squeezed_together_to_improve_t.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_going_to_tokyo"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_going_to_tokyo.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_meeting_the_committee"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_meeting_the_committee.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_keep_the_oil_flowing"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_keep_the_oil_flowing.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_more_than_texas"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_more_than_texas.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_giant_south"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_giant_south.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_not_neighbors"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_not_neighbors.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_sister_revolutions"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_sister_revolutions.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_pan_american"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_pan_american.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_japanese_language_courses"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_japanese_language_courses.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_heart"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_heart.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_hemispheric_summit"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_hemispheric_summit.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_mateos_up"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_mateos_up.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_sukarno_friend"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_sukarno_friend.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_trade_across_the_border"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_trade_across_the_border.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_expand_the_bracero_program"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_expand_the_bracero_program.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_comrades_in_india"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_comrades_in_india.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_conceding_fishing_rights"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_conceding_fishing_rights.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_mexican_toyota"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_mexican_toyota.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_pacific_industry_summit"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_pacific_industry_summit.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_going_to_dc"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_going_to_dc.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_the_chamizal"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_the_chamizal.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_secondary_oil_deal"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_secondary_oil_deal.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_industry_without_smokestacks"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_industry_without_smokestacks.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MEX_attract_canadian_investment"
+		texturefile = "gfx/interface/goals/MEX/focus_MEX_attract_canadian_investment.dds"
+	}
+}
